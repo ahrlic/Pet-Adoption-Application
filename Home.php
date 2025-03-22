@@ -9,7 +9,7 @@
     <title>Pet Adoption</title>
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
-
+<?php include 'header.php';?>
 
 <body>
 
@@ -17,16 +17,8 @@
         <a href="#" class = "logo">Pet Adoption<span>.</span></a>
     
         <!--page is a placeholder -->
-        <nav class="navbar">
-            <a href="home">home</a>
-            <a href="page">page</a>
-            <a href="page">page</a>
-            <a href="page">page</a>
-            <a href="page">page</a>
-            <a href="page">page</a>
-    
-        </nav>
-    
+        <?php include 'nav.php';?>
+      
     </header>
 
 
@@ -39,6 +31,8 @@
         </div>
 
     </section>
-    
+  
 </body>
+
+<?php include 'footer.php';?>
 </html>
