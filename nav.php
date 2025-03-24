@@ -1,10 +1,9 @@
 <nav class="navbar">
-            <a href="home">home</a>
+            <a href="Home.php">Home</a>
             <a href="contact.html">Contact</a>
             <a href="petCare.php">Tips</a>
-            <a href="page">Insurance</a>
-            <a href="signup.html">Sign Up</a>
-            <a href="page">page</a>
+            <a href="Insurance.html">Insurance</a>
+            <a href="login.html">Sign Up</a>
     
         </nav>
     

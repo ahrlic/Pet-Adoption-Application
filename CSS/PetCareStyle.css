@@ -4,16 +4,14 @@
     outline:none; 
     border:none;
     text-decoration: none;
-    text-transform: capitalize;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: .2s linear;
 
-}
-
+} 
 
 body{
-    background-color: rgb(243, 236, 250);
+    background-color: rgb(226, 241, 220);
 }
 
 header{
@@ -44,7 +42,7 @@ header .logo span{
 header .navbar a{
     font-size: 30px;
     padding: 0 15px;
-    color:#dfffd6;
+    color:#333;
 
 }
 
@@ -52,30 +50,26 @@ section{
     padding: 15px;
 }
 
-.home{
+.petCare{
     display: flex;
     align-items: center;
     min-height: 700px;
-    background-image: url(Images/image.png);
-    background-size: cover;
-    background-position: center;
+    
 }
 
-.home .info{
+.petCare .info1{
     max-width: 1000px;
 
 }
 
-.home .info h3{
+.petCare .info1 h3{
     font-size: 100px;
-    color:#dffecd;
+    color: #333;
    
 }
 
-.home .content span{
+.petCare .content span{
     font-size: 30px;
     padding: 10px;
     line-height: 1.5;
 }
-
-
