@@ -1,3 +1,4 @@
+<!-- http://localhost/Assignment2/Pet-Adoption-Application/Home.php-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
 <body>
 
     <header> 
-        <a href="#" class = "logo">Pet Adoption<span>.</span></a>
+        <a href="#" class = "logo">Adoptly<span>.</span></a>
     
         <!--page is a placeholder -->
         <?php include 'nav.php';?>
@@ -25,9 +26,9 @@
     <section class="home">
 
         <div class="info">
-        <h3>eepy cars for adoption :O</h3>
-        <span> new meow's here:</span>
-        <p> Meow1 meow2 meow3 </p>
+        <h3>Welcome to our pet adoption services!</h3>
+        <span> The home for all furry friends, spreading love and helping you find your new best friend.</span>
+        <p> (They are excited to meet you too!)</p>
         </div>
 
     </section>
