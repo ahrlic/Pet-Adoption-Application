@@ -7,7 +7,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
     <meta name="author" content="Ariana Hrlic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Adoption</title>
+    <title>Adoptly</title>
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
 <?php include 'header.php';?>

@@ -11,9 +11,15 @@
 </head>
 
 <?php include 'header.php';?>
-<body>
 
-<?php include 'nav.php';?>
+<body>
+<header> 
+        <a href="#" class = "logo">Adoptly<span>.</span></a>
+    
+        <!--page is a placeholder -->
+        <?php include 'nav.php';?>
+      
+    </header>
 
 <section class="petCare">
 
@@ -24,19 +30,23 @@
     well cared for. A pet is a companion and a best friend! Here are some general tips in order to maintain a long term 
     relationship with your furry friend!
 
-    Note: for more specific questions and or concerns, you may send in a form through our contact page and we would be 
+    Note: for more specific questions and/ or concerns, you may send in a form through our contact page and we would be 
     happy to help as much as we can!
 </span>
 
 <!--Note: these links are borrowed from the Ottawa Human Society for tips to appear legitimite in our fictional website -->
-<a href="https://www.ottawahumane.ca/wp-content/uploads/2015/01/allergies.pdf?_gl=1*98j8qj*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTgyNC4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTgyNC42MC4wLjA.">Dealing With Pet allergies</a>
-<a href="https://ottawahumane.ca/your-pet/animal-tips/flea-control/?_gl=1*1299enz*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTk4NS4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTk4NS42MC4wLjA.">Flea Control</a>
-<a href="https://www.ottawahumane.ca/wp-content/uploads/2015/01/multi-pet.pdf?_gl=1*1y9kyv*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjMyNS4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjMyNi42MC4wLjA.">Multi-Pet HouseHold</a>
-<a href="https://www.ottawahumane.ca/wp-content/uploads/2015/01/petsandbabies.pdf?_gl=1*13899v2*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjU0MS4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjU0MS41Ni4wLjA.">Pets and Babies</a>
-<a href="https://ottawahumane.ca/your-pet/animal-tips/vaccinating-your-pet/">Pet Vaccination</a>
-<a href="https://ottawahumane.ca/your-pet/animal-tips/summer-safety-for-pets/?_gl=1*fz39m8*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjYzNy4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjYzNy42MC4wLjA.">Summer Outdoor Safety</a>
-<a href="https://ottawahumane.ca/your-pet/animal-tips/spay-or-neuter-your-pets/?_gl=1*1f1i0d5*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjY3Ny4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjY3Ny4yMC4wLjA.">Neuter or Spay</a>
+<ul>
+
+<li><a href="https://www.ottawahumane.ca/wp-content/uploads/2015/01/allergies.pdf?_gl=1*98j8qj*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTgyNC4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTgyNC42MC4wLjA.">Dealing With Pet allergies</a></li>
+<li><a href="https://ottawahumane.ca/your-pet/animal-tips/flea-control/?_gl=1*1299enz*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTk4NS4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MTk4NS42MC4wLjA.">Flea Control</a></li>
+<li><a href="https://www.ottawahumane.ca/wp-content/uploads/2015/01/multi-pet.pdf?_gl=1*1y9kyv*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjMyNS4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjMyNi42MC4wLjA.">Multi-Pet HouseHold</a></li>
+<li><a href="https://www.ottawahumane.ca/wp-content/uploads/2015/01/petsandbabies.pdf?_gl=1*13899v2*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjU0MS4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjU0MS41Ni4wLjA.">Pets and Babies</a></li>
+<li><a href="https://ottawahumane.ca/your-pet/animal-tips/vaccinating-your-pet/">Pet Vaccination</a></li>
+<li><a href="https://ottawahumane.ca/your-pet/animal-tips/summer-safety-for-pets/?_gl=1*fz39m8*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjYzNy4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjYzNy42MC4wLjA.">Summer Outdoor Safety</a></li>
+<li><a href="https://ottawahumane.ca/your-pet/animal-tips/spay-or-neuter-your-pets/?_gl=1*1f1i0d5*_ga*MTk1MDI4NjQ4Ni4xNzQyODQxMDY5*_ga_JLNZ53SJ3K*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjY3Ny4wLjAuMA..*_gcl_au*MTUyODM2NDYwNC4xNzQyODQxMDY5*_ga_Z8C7JLHLGE*MTc0Mjg0MTA2OS4xLjEuMTc0Mjg0MjY3Ny4yMC4wLjA.">Neuter or Spay</a></li>
+</ul>
 </div>
+
 
 </section>
 
