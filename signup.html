@@ -1,109 +1,89 @@
-<!--Name: Fiona Ang, Smriti Kohli, Ariana Hrlic-->
-<!--File: signup.html-->
-<!--Date: March 30, 2025-->
-<!--Description: This is a html file for Assignment 2 - contact.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="This is a html file for Lab Assignment 1">
-    <meta name="keywords" content="CST8285 - Assignment 1">
-    <meta name="author" content="Fiona Ang">
-    <title>Signup - Pet Adoption</title>
-    <link rel="stylesheet" type="text/css" href="signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Insurance.css">
 </head>
 <body>
-    <!-- This is the main body -->
-    <main>
-        <!-- First Section -->
-        <section id="section1">
-            <!-- Image from Pinterest -->
-             <div id="doggo-image">
-                 <img src="pics/dogLogin.png" alt="hi.">
-             </div>
-            <div class="login-side">
-                <h1>Sign Up</h1>
-                <p>Already have an account? <a href="login.html">Sign In</a></p>
-                <form action="home.html" method="get" onsubmit="return validate();">
-                    <!-- First div for full name -->
-                    <div class="full-name">
-                        <label for="firstname">First Name: </label>
-                        <input type="text" id="firstname" name="firstname">
-                        
-                        <label for="lastname">Last Name: </label>
-                        <input type="text" id="lastname" name="lastname">
-                    </div>
+    <header id="header">
+        <h1 class="header-title">Pet Insurance</h1>
+        <nav class="nav-bar">
+            <a href="Insurance.html" class="nav-link">Index</a>
+            <a href="InsurancePlans.html" class="nav-link">Plans</a>
+            <a href="WhyUs.html" class="nav-link">Why Choose Us</a>
+            <a href="FAQs.html" class="nav-link">FAQs</a>
+            <a href="SignUp.html" class="nav-link">Sign Up</a>
+        </nav>
+    </header>
 
-                    <div class="error-span">
-                        <span id="fullNameErr" class="blank-error"></span>
-                    </div>
+    <!-- Sign-Up Section -->
+    <section id="signup" class="signup-section">
+        <h2 class="section-title">Sign Up for Pet Insurance</h2>
+        <p class="section-text">Protect your furry friends today! Fill out the form below to get started. 🐾</p>
+        
+        <div class="signup-image">
+            <img src="Images/benefits-of-pets-scaled-1.jpg" alt="Happy pets and owners" class="form-image">
+        </div>
 
-                    <!-- First div for username -->
-                    <div class="username">
-                        <label for="username">Username: </label>
-                        <input type="text" id="username" name="username">
-                        <span id="usernameErr" class="blank-error"></span>
-                    </div>
-
-                    <!-- Second div for email address -->
-                    <div class="email-address">
-                        <label for="email">Email: </label>
-                        <input type="email" id="email" name="email">
-                        <span id="emailErr" class="blank-error"></span>
-                    </div>
-                    
-                    <!-- Third div for phone number -->
-                    <div class="phone-number">
-                        <label for="phone-number">Phone Number: </label>
-                        <input type="text" id="phone-number" name="phone-number" placeholder="(xxx) xxx-xxxx">
-                        <span id="phoneNumberErr" class="blank-error"></span>
-                    </div>
-
-                    <!-- Fourth div for password1 -->
-                    <div class="textfield">
-                        <label for="pass">Password</label>
-                        <input type="password" name="pass" id="pass">
-                        <span id="PassErr" class="blank-error"></span>
-                    </div>
+        <form class="signup-form">
+            <!-- Owner Information -->
+            <fieldset>
+                <legend>Owner Information</legend>
+                <label for="owner-name">Full Name:</label>
+                <input type="text" id="owner-name" name="owner-name" placeholder="Enter your full name" required>
                 
-                    <!-- Fifth div for password2 -->
-                    <div class="textfield">
-                        <label for="pass2">Re-type Password</label>
-                        <input type="password" id="pass2">
-                        <span id="PassErr2" class="blank-error"></span>
-                    </div>
-                    
-                    <!-- Sixth div for newsletter -->
-                    <div class="checkbox">
-                        <input type="checkbox" name="newsletter" id="newsletter">
-                        <label for="newsletter">I agree to receive weekly newsletters</label>
-                    </div>
-                    
-                    <!-- Seventh div for terms -->
-                    <div class="checkbox">
-                        <input type="checkbox" name="terms" id="terms">
-                        <label for="terms">I agree to the terms and conditions</label>
-                        <span id="termsErr" class="blank-error"></span>
-                    </div>
-                    
-                    <!-- Eighth div for buttons -->
-                    <div class="buttons">
-                        <button type="submit" id="send" value="Send">Send</button>
-                        <button type="reset" id="reset" value="Clear Information">Clear Information</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-    </main>
-    
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 do we even need this footer??</p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your address" rows="3" required></textarea>
+            </fieldset>
+
+            <!-- Pet Information -->
+            <fieldset>
+                <legend>Pet Information</legend>
+                <label for="pet-name">Pet Name:</label>
+                <input type="text" id="pet-name" name="pet-name" placeholder="Enter your pet's name" required>
+
+                <label for="pet-type">Pet Type:</label>
+                <select id="pet-type" name="pet-type" required>
+                    <option value="">Select pet type</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="pet-breed">Pet Breed:</label>
+                <input type="text" id="pet-breed" name="pet-breed" placeholder="Enter your pet's breed" required>
+
+                <label for="pet-age">Pet Age:</label>
+                <input type="number" id="pet-age" name="pet-age" placeholder="Enter your pet's age (in years)" required>
+            </fieldset>
+
+            <!-- Insurance Plan -->
+            <fieldset>
+                <legend>Insurance Plan Selection</legend>
+                <label for="plan-type">Select a Plan:</label>
+                <select id="plan-type" name="plan-type" required>
+                    <option value="">Choose a plan</option>
+                    <option value="basic">Basic Plan</option>
+                    <option value="standard">Standard Plan</option>
+                    <option value="premium">Premium Plan</option>
+                </select>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <button type="submit" class="signup-button">Submit Application</button>
+        </form>
+    </section>
+    <footer id="footer">
+        <p class="footer-text">Contact us at support@petinsurance.com | Follow us on social media</p>
     </footer>
-
-    <!-- Javascript -->
-    <script src="signup.js" defer></script>
 </body>
 </html>
