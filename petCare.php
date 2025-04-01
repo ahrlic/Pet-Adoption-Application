@@ -29,7 +29,7 @@
     we may struggle to know how to properly take care of them. Our goal is to insure that all our pets are taken home and 
     well cared for. A pet is a companion and a best friend! Here are some general tips in order to maintain a long term 
     relationship with your furry friend!
-
+<br>
     Note: for more specific questions and/ or concerns, you may send in a form through our contact page and we would be 
     happy to help as much as we can!
 </span>

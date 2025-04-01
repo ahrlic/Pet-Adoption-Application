@@ -8,9 +8,9 @@
     <meta name="author" content="Ariana Hrlic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adoptly</title>
-    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/homeStyle.css">
 </head>
-<?php include 'header.php';?>
+
 
 <body>
 
@@ -18,25 +18,21 @@
         <a href="#" class = "logo">Adoptly<span>.</span></a>
     
         <!--page is a placeholder -->
-        <?php include 'nav.php';?>
-      
+    
     </header>
-
+   
 
     <section class="home">
-
+        <h1>Adoptly</h1>
+        <br>
         <div class="info">
+        <span> <p>The home for all furry friends, spreading love and helping you find your new best friend. </p></span>
         <h3>Welcome to our pet adoption services!</h3>
-        <span> The home for all furry friends, spreading love and helping you find your new best friend.</span>
-        <p> (They are excited to meet you too!)</p>
+      
         </div>
 
     </section>
   
 </body>
-<footer>
-    <div class="footer-container">
-        <?php include 'footerInsurance.php';?>
-    </div>
-</footer>
+
 </html>
