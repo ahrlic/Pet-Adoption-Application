@@ -1,75 +1,177 @@
-*{
-    margin:0px;
-    padding: 0px;
-    outline:none; 
-    border:none;
-    text-decoration: none;
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* General reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: .2s linear;
-
-} 
-
-body{
-    background-color: rgb(226, 241, 220);
 }
 
-header{
-    position:fixed;
-    top:0; 
-    left: 0; 
-    right: 0;
-    background: #fff;
-    padding: 15px 9%;
-    border-radius: 3px;
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
+body {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #007aff; /* Apple-style blue for links */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #34c759; /* Green color for hover */
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
     z-index: 1000;
-    box-shadow: 0 .5px 1px rgba(0, 0, 0, .1);
-}
-
-header .logo{
-    font-size: 30px;
-    color: #333;
-    font-weight: bold;
-}
-
-header .logo span{
-    color:rgb(73, 18, 90)
-}
-
-header .navbar a{
-    font-size: 30px;
-    padding: 0 15px;
-    color:#333;
-
-}
-
-section{
-    padding: 15px;
-}
-
-.petCare{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    min-height: 700px;
-    
 }
 
-.petCare .info1{
-    max-width: 1000px;
-
-}
-
-.petCare .info1 h3{
-    font-size: 100px;
+header .logo {
     color: #333;
-   
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-.petCare .content span{
-    font-size: 30px;
+header .logo span {
+    color: #007aff; /* Apple blue */
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #34c759; /* Green color on hover */
+}
+
+/* Main Section Styles */
+section.petCare {
+    padding: 120px 40px 40px; /* Adjust for fixed header */
+    background-color:#b7e4c7;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.petCare .info1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.petCare .info1 img {
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.petCare .info1 h3 {
+    font-size: 50px; /* Increased font size for the title */
+    color: #ff4d88; /* A rich, bold pink */
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+.petCare .info1 span {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Color palette for pastel shades */
+.pastel-pink {
+    background-color: #f8c9d4; /* Pastel pink */
+}
+
+.pastel-green {
+    background-color: #b7e4c7; /* Pastel green */
+}
+
+/* Centering the buttons (links) */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns for wider screens */
+    justify-items: center;
+}
+
+ul li {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
     padding: 10px;
-    line-height: 1.5;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #ffccd5; /* Pastel pink for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul li:hover a {
+    background-color: #a8e6cf; /* Pastel green on hover */
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1)
 }
