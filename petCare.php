@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta name="description" content="A website to adopt pets">
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
-    
+    <meta name="author" content="Ariana Hrlic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Care Tips</title>
     <link rel="stylesheet" href="CSS/PetCareStyle.css">
@@ -52,5 +52,5 @@
 
 </body>
 
-<?php include 'footer.php';?>
+<?php include 'footerInsurance.php';?>
 </html>

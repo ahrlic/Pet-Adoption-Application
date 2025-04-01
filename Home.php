@@ -34,6 +34,9 @@
     </section>
   
 </body>
-
-<?php include 'footer.php';?>
+<footer>
+    <div class="footer-container">
+        <?php include 'footerInsurance.php';?>
+    </div>
+</footer>
 </html>
