@@ -1,3 +1,11 @@
+/*Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Section: CST 8285 300_301
+File: homeStyle.css
+Date: April 2, 2025
+Description: This is a CSS file for Assignment2*/
+
+
+/*Default styling incase of any overlapping styles */
 * {
     margin: 0px;
     padding: 0px;
@@ -14,39 +22,18 @@ body {
    
 }
 
-
-
-header .logo {
-    font-size: 30px;
-    color: #333;
-    font-weight: bold;
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-  
-
-}
-
-header .logo span {
-    color: rgb(248, 248, 248);
-    margin-left: auto;
-}
-
-header .navbar a {
-    font-size: 30px;
-    color: #f9f9f9;
-}
-
 section {
     padding: 30px;
 }
 
+/*Main background styling*/
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 1000px; 
+    /*Large cat image */   
+    min-height: 1100px; 
     background-image: url(Images/image.png);
     background-size: cover;
     background-position: top center; 
@@ -54,6 +41,7 @@ section {
  
 }
 
+ /*main home page text styling all below */ 
 .home .info {
     max-width: 1000px;
     text-align: center;
@@ -72,14 +60,15 @@ section {
 
 
   h1 {
-    font-size: 300px; /* Makes the text size large */
-    font-weight: bold; /* Adds emphasis */
-    color: #ffffff; /* Bright, attention-grabbing color */
-    text-align: center; /* Centers the text */
-    letter-spacing: 3px; /* Adds spacing between letters for style */
+    font-size: 300px;
+    font-weight: bold; 
+    color: #ffffff; 
+    text-align: center; 
+    letter-spacing: 3px;
   }
 
 
+/*Media Queries */
 
 @media (max-width: 768px) {
     header .logo {
@@ -98,10 +87,6 @@ section {
         font-size: 16px;
     }
 
-    .home .cta-button {
-        font-size: 16px;
-        padding: 12px 25px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -123,8 +108,4 @@ section {
         font-size: 14px;
     }
 
-    .home .cta-button {
-        font-size: 14px;
-        padding: 10px 20px;
-    }
 }

@@ -1,4 +1,7 @@
-<!-- http://localhost/Assignment2/Pet-Adoption-Application/Home.php-->
+<!--Name: Fiona Ang, Smriti Kohli, Ariana Hrlic-->
+<!--File: home.php-->
+<!--Date: March 26, 2025-->
+<!--Description: This is a html file for Assignment 2 - home.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +21,7 @@
         <a href="#" class = "logo">Adoptly<span>.</span></a>
     
         <!--page is a placeholder -->
+        <?php include 'nav.php';?>
     
     </header>
    
@@ -34,5 +38,6 @@
     </section>
   
 </body>
+<?php include 'footerInsurance.php';?>
 
 </html>

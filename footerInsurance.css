@@ -22,7 +22,7 @@
     text-align: right; /* Aligns the text to the right */
     color: black; /* Sets the text color to black */
     font-size: 0.9em; /* Adjusts font size for subtle styling */
-    margin: 20px; /* Adds some space around the footer */
+    margin: 10px; /* Adds some space around the footer */
     padding: 10px; /* Optional padding for aesthetic spacing */
     
 }

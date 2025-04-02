@@ -1,3 +1,7 @@
+<!--Name: Fiona Ang, Smriti Kohli, Ariana Hrlic-->
+<!--File: petCare.php-->
+<!--Date: March 26, 2025-->
+<!--Description: This is a html file for Assignment 2 - petCare.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
     <link rel="stylesheet" href="CSS/PetCareStyle.css">
 </head>
 
-<?php include 'header.php';?>
+
 
 <body>
 <header> 
