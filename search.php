@@ -1,6 +1,6 @@
 <!--Name: Fiona Ang, Smriti Kohli, Ariana Hrlic-->
 <!--File: search.html-->
-<!--Date: April 4, 2025-->
+<!--Date: March 30, 2025-->
 <!--Description: This is a html file for Assignment 2 -->
 
 <!DOCTYPE html>
@@ -10,20 +10,16 @@
         <meta name="description" content="This is a html file for Lab Assignment 1">
         <meta name="keywords" content="CST8285 - Assignment 1">
         <meta name="author" content="Fiona Ang">
-        <title>Search - Pet Adoption</title>
+        <title>Search - Adoptly</title>
         <!-- <meta http-equiv="refresh" content="1"> -->
     <link rel="stylesheet" type="text/css" href="search.css">
 </head>
-<body>
+<body id="search">
     <!-- This is the header -->
     <header>
+        <a href="Home.php" class="logo">Adoptly<span>.</span></a>
         <!-- This is the navigation to home, page, contact -->
-        <nav>
-            <a class="nav-link" href="home.html">HOME</a>
-            <a class="nav-link" href="page">SEARCH</a>
-            <a class="nav-link" href="page">INSURANCE</a>
-            <a class="nav-link" href="contact.html">CONTACT</a>
-        </nav>
+        <?php include 'nav.php';?>
     </header>
 
     <!-- This is the main body -->
@@ -77,9 +73,7 @@
     </main>
     
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 do we even need this footer??</p>
-    </footer>
+    <?php include 'footerInsurance.php';?>
 
     <!-- Javascript -->
     <script src="search.js" defer></script>
