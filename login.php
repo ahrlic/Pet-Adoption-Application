@@ -14,14 +14,30 @@
     <link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
+    <?php if (isset($_SESSION['error'])): ?>
+        <div class="error-message" style="
+            color: red;
+            background:rgb(119, 46, 46);
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid red;
+            border-radius: 5px;
+        ">
+            <?php 
+            echo $_SESSION['error']; 
+            unset($_SESSION['error']); // Clear the error after showing it
+            ?>
+        </div>
+    <?php endif; ?>
+
     <!-- This is the main body -->
     <main>
         <!-- First Section -->
         <section id="section1">
             <div class="login-side">
                 <h1>Sign In</h1>
-                <p>Don't have an account? <a href="signup.html">Create One!</a></p>
-                <form action="home.html" method="get" onsubmit="return validate();">                    
+                <p>Don't have an account? <a href="signupUser.html">Create One!</a></p>
+                <form action="users.php" method="post" onsubmit="return validate();">                    
                     <!-- First div for username -->
                     <div class="username-email">
                         <label for="usernameAndEmail">Username/Email Address: </label>
