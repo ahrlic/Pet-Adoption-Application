@@ -4,7 +4,7 @@ Date: March 31st, 2025
 Author: Smriti Kohli
 Description: This file contains all the styling for the Insurance web pages.-->
 
-<link rel="stylesheet" href="footerInsurance.css">
+<link rel="stylesheet" href="Insurance.css">
 <footer id="footer">
         <p class="footer-text">Contact us at support@petinsurance.com | Follow us on social media</p>
         
@@ -25,7 +25,7 @@ Description: This file contains all the styling for the Insurance web pages.-->
                 </svg></i>
             </a><!--Reference for symbol: https://framesxdesign.com/copy-paste-icons/logo-instagram-->
         </div>
-        <p id="footer-copyright">© 2025 Smriti Kohli, Fiona Ang, Ariana Hrlic. All rights reserved.</p> <!-- Copyright Notice -->  
+        <p id="footer-copyright">© 2025 Smriti Kohli, Fiona Ang, Ariana Hrilic. All rights reserved.</p> <!-- Copyright Notice -->  
     </footer>
     </body>
 </html>
