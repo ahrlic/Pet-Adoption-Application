@@ -1,6 +1,6 @@
 <!--Name: Fiona Ang, Smriti Kohli, Ariana Hrlic-->
 <!--File: contact.html-->
-<!--Date: March 30, 2025-->
+<!--Date: April 8, 2025-->
 <!--Description: This is a html file for Assignment 2 - contact.html -->
 
 <!DOCTYPE html>
@@ -10,19 +10,16 @@
     <meta name="description" content="This is a html file for Lab Assignment 1">
     <meta name="keywords" content="CST8285 - Assignment 1">
     <meta name="author" content="Fiona Ang">
-    <title>Contact Us - Pet Adoption</title>
+    <title>Contact Us - Adoptly</title>
+    <!-- <meta http-equiv="refresh" content="1"> -->
     <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
     <!-- This is the header -->
     <header>
-        <!-- This is the navigation to resume, projects, and contact -->
-        <nav>
-            <a class="nav-link" href="home.html">HOME</a>
-            <a class="nav-link" href="page">PAGE</a>
-            <a class="nav-link" href="page">INSURANCE</a>
-            <a class="nav-link" href="contact.html">CONTACT</a>
-        </nav>
+        <a href="Home.php" class="logo">Adoptly<span>.</span></a>
+        <!-- This is the navigation to home, page, contact -->
+        <?php include 'nav.php';?>
     </header>
 
     <!-- This is the main body -->
@@ -84,14 +81,8 @@
 
     </main>
     
-    <!-- Footer + Section 4-->
-    <section id="section4">
-        <h1>Office Hour:</h1>
-        <p>10 to 5 pm, 7 days a week</p>
-        <footer>
-            <p>&copy; 2025 do we even need this footer??</p>
-        </footer>
-    </section>
+    <!-- Footer -->
+    <?php include 'footerInsurance.php';?>
 
     <!-- Javascript -->
     <script src="contact.js" defer></script>
