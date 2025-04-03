@@ -1,4 +1,6 @@
 <?php
+header('Content-Type: application/json');
+
 // Connection info
 $servername = "localhost";
 $database = "display_pet";
@@ -24,7 +26,7 @@ if (isset($_GET['type'])) {
     $types = array_map(function($type) use ($connection) {
         return mysqli_real_escape_string($connection, $type);
     }, $types);
-    $typeList = "'" . implode("','", $types) . "'";
+    $tssypeList = "'" . implode("','", $types) . "'";
     $sql .= " AND type IN ($typeList)";
 }
 
