@@ -92,6 +92,7 @@ function validate(){
 //validate immediately without user having to click the 'sign up' button
 userName.addEventListener('focusout', validateName);
 userEmail.addEventListener('focusout', validateEmail);
+userMessage.addEventListener('focusout', validateMessage);
 
 //resets the whole thing (including the error messages)
 resetButton.addEventListener('click', function() {
