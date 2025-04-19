@@ -1,6 +1,6 @@
 /*Name: Smriti Kohli, Fiona Ang, Ariana Hrilic
 File: Insurance.css
-Date: March 31st, 2025
+Date: April 8, 2025
 Author: Smriti Kohli
 Description: This file contains all the styling for the Insurance web pages.*/
 
@@ -420,4 +420,7 @@ Description: This file contains all the styling for the Insurance web pages.*/
     margin: 20px; /* Adds some space around the footer */
     padding: 10px; /* Optional padding for aesthetic spacing */
     
+}
+body {
+    margin-top: 0px;
 }
