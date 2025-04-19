@@ -1,3 +1,9 @@
+<!--Name: Smriti Kohli, Fiona Ang, Ariana Hrlic
+Author: Smriti Kohli
+File: InsurancePlans.php
+Date: April 8,2025
+Description: This is the Insurance Plan page among the Insurance web pages.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <!--This is the meta header.-->
@@ -10,18 +16,16 @@
   <title>Adoptly.-InsurancePlans</title>
   <link rel="stylesheet" href="Insurance.css"><!--This is the link to the external css-->
 </head>
-<!--Name: Smriti Kohli, Fiona Ang, Ariana Hrilic
-File: InsurancePlans.php
-Date: March 31st,2025
-Description: This is the Insurance Plan page among the Insurance web pages.-->
-
 
 <!--The body tag starts here.-->
 <body id="PlanBdy">
-<!--This is where this php file gets connected to nav.php to have the nav of other web pages of Adotly.-->
-<?php include 'UpperNavInsurance.php'; ?>
+    <!-- This is the header -->
+    <header>
+        <!--This is where this php file gets connected to nav.php to have the nav of other web pages of Adotly.-->
+        <?php include 'UpperNavInsurance.php'; ?>
+    </header>
 <!--This is where this page gets connected to navInsurance.php to have nav.-->
-<?php include 'navInsurance.php'; ?>
+    <?php include 'navInsurance.php'; ?>
 <!--This is the first section.-->
     <section  class="plans-section">
         <h2 class="section-title">Our Plans</h2>
