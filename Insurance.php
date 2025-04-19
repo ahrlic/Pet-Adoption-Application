@@ -1,3 +1,9 @@
+<!--Name: Smriti Kohli, Fiona Ang, Ariana Hrilic
+File: Insurance.php
+Author: Smriti Kohli
+Date: April 8,2025
+Description: This is the index page among the Insurance web pages.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <!--This is the meta header.-->
@@ -10,17 +16,17 @@
   <title>Adoptly.-Index</title>
   <link rel="stylesheet" href="Insurance.css"><!--This is the link to the external css-->
 </head>
-<!--Name: Smriti Kohli, Fiona Ang, Ariana Hrilic
-File: Insurance.php
-Date: March 31st,2025
-Description: This is the index page among the Insurance web pages.-->
 
 <!--The body tag starts here-->
 <body class="page-background">
-<!--This is where this php file gets connected to nav.php to have the nav of other web pages of Adotly.-->
-<?php include 'UpperNavInsurance.php'; ?>
+    <!-- This is the header -->
+    <header>
+        <!--This is where this php file gets connected to nav.php to have the nav of other web pages of Adotly.-->
+        <?php include 'UpperNavInsurance.php'; ?>
+    </header>
+
 <!--This is where this php file gets connected to navInsurnce.php to have the nav.-->   
-<?php include 'navInsurance.php'; ?>
+    <?php include 'navInsurance.php'; ?>
 <!--This is the first div.-->
     <div class="hero-section">
         <h1 class="hero-title">Your Pet's Well-Being, Our Priority 🐾❤️</h1>
@@ -35,7 +41,7 @@ Description: This is the index page among the Insurance web pages.-->
         <img src="Images/OIP (3).jpg" alt="Image" class="insurance-img2">
     </section>
 <!--This is where this php file gets connected to footerInsurance.php to have the footer.-->
-<?php include 'footerInsurance.php'; ?>
+    <?php include 'footerInsurance.php'; ?>
 </body>
 <!--The body tag ends here.-->
 </html>
