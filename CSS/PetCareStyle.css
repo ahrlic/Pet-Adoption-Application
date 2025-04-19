@@ -1,0 +1,204 @@
+/*Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Section: CST 8285 300_301
+File: PetCareStyle.css
+Date: April 2, 2025
+Description: This is a CSS file for Assignment2*/
+
+/*google font import link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*Default styling incase of any overlapping styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/*Link stylings*/
+a {
+    text-decoration: none;
+    color: #007aff;
+    transition: color 0.3s ease;
+}
+
+/*hover colour for each link*/
+a:hover {
+    color: #34c759; 
+}
+
+/*Boxes to hold information*/
+section.petCare {
+    padding: 120px 40px 40px; 
+    background-color:#dbe3de;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*styling for main information*/
+.petCare .info1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+/*Styling of title */
+.petCare .info1 h3 {
+    font-size: 50px; 
+    color: #ff4d88; 
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.petCare .info1 span {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/*background colours*/
+.pastel-pink {
+    background-color: #f8c9d4; 
+}
+
+.white {
+    background-color: #f5e8f3; 
+}
+
+/*Link styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-items: center;
+}
+
+ul li {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #ffccd5; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul li:hover a {
+    background-color: #d0e3dc; 
+    color: #333;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    .petCare {
+        padding: 80px 30px 30px; 
+    }
+
+    .petCare .info1 h3 {
+        font-size: 40px; 
+    }
+
+    .petCare .info1 span {
+        font-size: 16px; 
+    }
+
+    ul {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    ul li {
+        width: 220px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .petCare {
+        padding: 60px 20px 20px; 
+    }
+
+    .petCare .info1 {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .petCare .info1 h3 {
+        font-size: 35px; 
+    }
+
+    .petCare .info1 span {
+        font-size: 14px; 
+    }
+
+    ul {
+        grid-template-columns: 1fr; 
+
+    ul li {
+        width: 100%; 
+        padding: 15px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .petCare .info1 h3 {
+        font-size: 30px; 
+    }
+
+    .petCare .info1 span {
+        font-size: 12px; 
+    }
+
+    ul li {
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    ul li a {
+        font-size: 16px; 
+    }
+}
+}

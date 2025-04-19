@@ -1,0 +1,110 @@
+/*Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Section: CST 8285 300_301
+File: homeStyle.css
+Date: April 8, 2025
+Author: Ariana Hrlic
+Description: This is a CSS file for Assignment2*/
+
+
+/*Default styling incase of any overlapping styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none; 
+    border: none;
+    top: -100px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .2s linear;
+}
+
+/*Body Styling*/
+body {
+    background-color: rgb(243, 236, 250);
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+}
+
+/*Main background styling*/
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*Large cat image */   
+    min-height: 1100px; 
+    background-image: url(Images/image.png);
+    background-size: cover;
+    background-position: top center; 
+    text-align: center;
+ 
+}
+
+/*main home page text styling all below */ 
+.home .info {
+    max-width: 1000px;
+    text-align: center;
+  
+}
+
+.home .info h3 {
+    font-size: 70px;
+    color: #f2f7ef;
+    margin-bottom: 10px;
+   
+}
+.home .info span p {
+    color: white;
+}
+
+
+h1 {
+    font-size: 300px;
+    font-weight: bold; 
+    color: #ffffff; 
+    text-align: center; 
+    letter-spacing: 3px;
+}
+
+/*Media Queries */
+@media (max-width: 768px) {
+    header .logo {
+        font-size: 24px;
+    }
+
+    header .navbar a {
+        font-size: 14px;
+    }
+
+    .home .info h3 {
+        font-size: 50px;
+    }
+
+    .home .info p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header .logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .navbar a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .home .info h3 {
+        font-size: 35px;
+    }
+
+    .home .info p {
+        font-size: 14px;
+    }
+}
