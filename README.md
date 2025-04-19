@@ -21,11 +21,11 @@ This was a **three-member group project**. The tasks done are as follows:
 - **Search** – Search for adoptable pets
 - **Tips** – Guidance for new pet parents
 - **Insurance** – For the Pet Insurance Facilities. 
-  - `index.html` – Overview of pet insurance  
-  - `plans.html` – Insurance plans (Basic, Standard, Premium) with pricing  
-  - `why-choose-us.html` – Reasons to choose our insurance  
-  - `faqs.html` – Frequently Asked Questions  
-  - `signup.html` – Sign-up form for pet insurance
+  - `index` – Overview of pet insurance  
+  - `plans` – Insurance plans (Basic, Standard, Premium) with pricing  
+  - `why-choose-us` – Reasons to choose our insurance  
+  - `faqs` – Frequently Asked Questions  
+  - `signup` – Sign-up form for pet insurance
 - **Sign In** – Login functionality for users
 
 ---
