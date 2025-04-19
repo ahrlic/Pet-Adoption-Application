@@ -1,3 +1,9 @@
+<!--Name: Smriti Kohli, Fiona Ang, Ariana Hrlic
+Author: Smriti Kohli
+File: SignUp.php
+Date: April 8, 2025
+Description: This is the Sign up page for the insurance of the pets among the Insurance web pages.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <!--This is the meta header.-->
@@ -8,19 +14,18 @@
   <meta name="author" content="Smriti Kohli">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adoptly.-InsuranceSignUp</title>
-  <link rel="stylesheet" href="ticket.css"><!--This is the link to the external css-->
+  <link rel="stylesheet" href="Insurance.css"><!--This is the link to the external css-->
 </head>
-<!--Name: Smriti Kohli, Fiona Ang, Ariana Hrilic
-File: SignUp.php
-Date: March 31st,2025
-Description: This is the Sign up page for the insurance of the pets among the Insurance web pages.-->
 
 <!--The body tag starts here-->
 <body>
-<!--This is where this php file gets connected to nav.php to have the nav of other web pages of Adotly.-->
-<?php include 'UpperNavInsurance.php'; ?>
+    <!-- This is the header -->
+    <header>
+        <!--This is where this php file gets connected to nav.php to have the nav of other web pages of Adotly.-->
+        <?php include 'UpperNavInsurance.php'; ?>
+    </header>
 <!--This is where this php file gets connected to navInsurnce.php to have the nav.-->   
-<?php include 'navInsurance.php'; ?>
+    <?php include 'navInsurance.php'; ?>
 <!-- This is the Sign-Up Section -->
     <section id="signup" class="signup-section">
         <h2 class="section-title">Sign Up for Pet Insurance</h2>
@@ -86,7 +91,7 @@ Description: This is the Sign up page for the insurance of the pets among the In
         </form>
     </section>
 <!--This is where this php file gets connected to footerInsurance.php to have the footer.-->
-<?php include 'footerInsurance.php'; ?>
+    <?php include 'footerInsurance.php'; ?>
 </body>
 <!--The body tag ends here.-->
 </html>
