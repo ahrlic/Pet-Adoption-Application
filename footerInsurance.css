@@ -1,0 +1,35 @@
+/* Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Author: Smriti Kohli
+Section: CST 8285 300_301
+File: footerInsurance.css
+Date: April 8, 2025
+Description: This file contains all the styling for the Insurance web pages */
+
+/*------------Styling of Footer for footerInsurnce.php------------*/
+#footer {
+    background-color:#C1CFA1 ;
+}
+.footer-text {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+#socialButtons {
+    text-align: center; /* Center-aligns social icons */
+    margin-bottom: 10px;
+}
+.social-button {
+    margin: 0 10px; /* Adds spacing between buttons */
+}
+#social-media a:hover {
+    text-decoration: underline;
+}
+#footer-copyright {
+    text-align: right; /* Aligns the text to the right */
+    color: black; /* Sets the text color to black */
+    font-size: 0.9em; /* Adjusts font size for subtle styling */
+    margin: 10px; /* Adds some space around the footer */
+    padding: 10px; /* Optional padding for aesthetic spacing */
+    
+}

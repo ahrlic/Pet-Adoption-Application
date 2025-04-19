@@ -1,0 +1,144 @@
+/*Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Author: Fiona Ang
+Section: CST 8285 300_301
+File: login.css
+Date: April 8, 2025
+Description: This is a CSS file for Assignment2*/
+
+/*CSS for the whole thing (universal)*/
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    background-color: #E7cccc;
+    color: #29241c;
+}
+
+/*CSS for anchor*/
+a {
+    color: #a5b68d;
+}
+
+/*CSS for anchor when hover*/
+a:hover {
+    color: #c1cfa1;
+}
+
+/*CSS for main*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CSS for id section1*/
+#section1 {
+    display: flex;
+    margin-top: 50px;
+    width: 80%;
+    justify-content: center;
+}
+
+/*CSS for img*/
+img {
+    display: block;
+    height: 644px;
+}
+
+/*CSS for form from the class login-side, div, input, button, h1 from the class h1, p from the class login state, anchor, and span*/
+.login-side form, div, input, label, button, .login-side h1, .login-side p, a, span{
+    background-color: white;
+}
+
+/*CSS for class login-side*/
+.login-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 25px 0 0 25px;
+    width: 400px;
+}
+
+/*CSS for p in footer*/
+footer p{
+    font-style: italic;
+    font-size: 12pt;
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/*CSS for h1*/
+h1 {
+    font-size: 28pt;
+    margin-bottom: 3px;
+}
+
+/*CSS for p*/
+p {
+    margin-bottom: 25px;
+}
+
+/*CSS for label*/
+label {
+    font-size: 10pt;
+}
+
+/*CSS for div in form*/
+form div {
+    margin-bottom: 8px;
+}
+
+/*CSS for input*/
+input {
+    width: 100%;
+    height: 20px;
+    border: 1px solid;
+}
+
+/*CSS for button*/
+button {
+    color: #29241c;
+    background-color: #e7cccc;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 11pt;
+}
+
+/*CSS for id reset*/
+#reset {
+    margin-left: 8px;
+    background-color: #a5b68d;
+}
+
+/*CSS for class blank-error*/
+.blank-error {
+    color: red;
+    font-size: 10pt;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*CSS for before the class blank-error */
+.blank-error::before {
+    content: "❌";
+    margin-right: 5px;
+    display:  none;
+}
+
+/*CSS for before the class blank-error when it's not empty */
+.blank-error:not(:empty)::before {
+    display: inline;
+}
+
+/*CSS for error-field*/
+.error-field {
+    border: 2px solid red;
+}

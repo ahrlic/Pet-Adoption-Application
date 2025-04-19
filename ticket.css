@@ -1,0 +1,98 @@
+/*Name: Smriti Kohli, Fiona Ang, Ariana Hrilic
+File: ticket.css
+Date: April 8, 2025
+Author: Smriti Kohli
+Description: This file contains all the styling for the receipt that is printed after signing up for insurance.*/
+
+/*-----------Styling of header for the receipt printed after SignUp of Insurance------------*/
+#header {
+    background-color: #C1CFA1;
+    padding: 15px;
+    text-align: center;
+}
+.header-title {
+    color: white;
+}
+/*-----------Styling of nav for the receipt printed after SignUp of Insurance------------*/
+.nav-bar {
+    margin: 20px 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.success-section /* Success Message Section */{
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #FADADD; /* Light pink background */
+    border: 1px solid #F5B7B1; /* Soft pink border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 700px; /* Slightly wider for more space */
+    text-align: center; /* Center-align all content */
+    font-family: "Arial", sans-serif; /* Clean, modern font choice */
+}
+.success-section h2 /* Success Heading */{
+    font-size: 3em;
+    color: #99bd45; /* Deep pinkish-red header for impact */
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+.success-section p /* Success Body Text */{
+    font-size: 1.2em;
+    color: #444; /* Neutral dark gray text */
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.success-section h3 /* Subheaders */{
+    font-size: 2em;
+    color:palevioletred; /* Muted pink-red for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.success-section strong {
+    color: #845397; /* Elegant purple for highlighted text */
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+.error-message /* Error Message */{
+    padding: 15px;
+    margin: 20px auto;
+    color: #B03A2E; /* Deep red for error text */
+    background-color: #FDEDEC; /* Soft pinkish-red background */
+    border: 10px solid #F1948A; /* Muted red border */
+    border-radius: 8px;
+    text-align: center;
+    max-width: 700px;
+    font-size: 1.2em;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Gentle shadow for elegance */
+}
+.success-section a, .error-message a /* Additional Styling for Links Inside Messages */ {
+    color: #AF7AC5; /* Soft purple links */
+    text-decoration: none;
+    font-weight: bold;
+}
+.success-section a:hover,.error-message a:hover {
+    text-decoration: underline;
+    color: #884EA0; /* Darker purple on hover */
+}
+/*-----------Styling of footer for the receipt printed after SignUp of Insurance------------*/
+#footer {
+    background-color:#C1CFA1 ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.footer-text {
+    margin: 0;
+}

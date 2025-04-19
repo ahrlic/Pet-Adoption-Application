@@ -1,0 +1,200 @@
+/* Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Author: Fiona Ang
+Section: CST 8285 300_301
+File: search.css
+Date: April 8, 2025
+Description: This is a CSS file for Assignment2 */
+
+/* CSS for all (universal) */
+* {
+    margin: 0px;
+    color: #29241c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CSS for main */
+main {
+    display: flex;
+}
+
+/* CSS for class sidebar */
+.sidebar {
+    width: 15%;
+    float: left;
+    background-color: #e7cccc;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for class main-content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+}
+
+/* CSS for class sidebar label */
+.sidebar label {
+    display: inline-block;
+    padding: 5px 0 5px 2px;
+    font-size: 14pt;
+}
+
+/* CSS for h1 in class sidebar */
+.sidebar h1 {
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-size: 23pt;
+}
+
+/* CSS for h2 in class sidebar */
+.sidebar h2{
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+/* CSS for section in class sidebar */
+.sidebar section {
+    margin-bottom: 20px;
+}
+
+/* CSS for input in class sidebar */
+.sidebar input {
+    margin-left: 25px;
+}
+
+/* CSS for button in class sidebar */
+.sidebar button {
+    background-color: white;
+    border: 0px;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+/* CSS for button in class sidebar when hover */
+.sidebar button:hover {
+    background-color: #c1cfa1;
+}
+
+/* CSS for class section1 */
+.section1 {
+    padding: 30px 30px 0 30px;
+}
+
+/* CSS for h2 from class section1 */
+.section1 h2{
+    font-size: 28pt;
+}
+
+/* CSS for p in class section1 */
+.section1 p {
+    margin-top: 5px;
+    font-size: 16pt;
+}
+
+/* CSS for b in class section1 */
+.section1 b{
+    color: #a5b68d;
+}
+
+/* CSS for id description in class pet-container */
+.pet-container #description {
+    text-align: center;
+    font-size: 12pt;
+}
+
+/*CSS to hide project*/
+img {
+    display: none;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CSS to show project */
+img.visible {
+    display: block;
+}
+
+/* CSS for h3 in class display-data */
+.display-data h3{
+    font-size: 18pt;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+/* CSS for class buttons from class display-data */
+.display-data .buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* CSS for class prev-button in class display-data and class .next-button in class display-data */
+.display-data .prev-button, .display-data .next-button {
+    border: 0px;
+    width: 130px;
+    padding: 3px;
+    font-size: 12pt;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* CSS for class prev-button in class display-data when hover and class .next-button in class display-data when hover */
+.display-data .prev-button:hover, .display-data .next-button:hover {
+    background-color: #C1CFA1;
+}
+
+/* CSS for class description from class display-data */
+.display-data .description {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* CSS for b in class display-data */
+.display-data b {
+    margin-left: 35px;
+    color: #707c5f;
+}
+
+/* CSS for class display-data */
+.display-data {
+    margin: 20px;
+    padding: 20px;
+    background-color: #EDE8DC;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* CSS for class one-pet */
+.one-pet {
+    width: 100%;
+}
+
+/* CSS for class oneContainer */
+.oneContainer {
+    margin: 0;
+    height: 440px;
+    margin-bottom: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

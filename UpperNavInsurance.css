@@ -1,0 +1,53 @@
+/*Name: Ariana Hrlic, Fiona Ang, Smriti Kohli
+Author: Ariana Hrlic
+Section: CST 8285 300_301
+File: UpperNavInsurance.css
+Date: April 8, 2025
+Description: This is a CSS file of the nav for Assignment2*/
+
+/*CSS for header, nav, and the class nav-link*/
+#logo, .nav-link1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 500px;
+}
+
+#logo-dot {
+    color: #707c5f;
+}
+
+/*CSS for nav*/
+.navbar1 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17pt;
+    background-color: #EDE8DC;
+}
+
+/*CSS for anchors class nav-link*/
+.nav-link1 {
+    color: #707c5f;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+
+/*CSS for the anchor when hover*/
+.nav-link1:hover {
+    color: #C1CFA1;
+    transform: scale(90%);
+}
